@@ -1,0 +1,62 @@
+.heading{
+    background-color:rgb(82, 255, 189);
+    margin-top: -35px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 10px;
+    border: 3px solid black;
+}
+.box{
+    align-items: center;
+    background-color: chartreuse;
+    width:50%;
+    height:50%;
+    text-align: center;
+    font-size: x-large;
+    margin-left: 350px;
+    
+    border-color:red;
+    border: 5px solid black;   
+}
+body{
+    background-image: linear-gradient(to right,rgb(182, 255, 222),rgb(217, 255, 205));
+    background-repeat: repeat;
+    background-size: cover;
+    background-position-y: -500px;
+    padding: 25px;
+  
+}
+button{
+    background-color: rgb(0, 4, 255);
+    border: 5px solid black;
+    font-size: larger;
+    margin:5px 10px;
+    padding:10px 180px;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.7;
+}
+input[type=text],input[type=password]{
+    width:50%;
+    padding:12px;
+    margin:10px 0;
+    display: inline-block;
+    border: 3px solid blueviolet;
+}
+#cancelbt{
+    width: auto;
+    padding:5px 18px;
+    margin: 10px 5px;
+    margin-top: -20px;
+}
+.remeber{
+    width:60%;
+    height:-50%;
+
+}
+.role{
+    text-align: left;
+    margin:0 50px;
+    padding: 10px 10px;
+}

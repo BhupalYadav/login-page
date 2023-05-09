@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form </title>
+    <link rel="stylesheet" href="loginform.css">
+</head>
+<body>
+    <h1 class="heading" style="text-align: center;font-size: xx-large;font-family: sans-serif;color: red;">
+        <div style=" border: 3px;">LOGIN PAGE</div></h1>
+    <form>
+        <div class="box">
+            <label style="color: aliceblue;font-size: larger;">USERNAME: </label>
+            <input type="text" placeholder="enter username"  required>
+            <br>
+            <br>
+            <label style="color: aliceblue;font-size: larger;">PASSWORD:   </label>
+            <input type="password" placeholder="enter password" +required>
+            <br><div class="role">
+                <label for="job role" style="color: aliceblue;left:0;">JOB ROLE: </label>
+            <select id="" name="job role" required>
+                <option value="">select job role</option>
+                <option>hr</option>
+                <option>tr</option>
+            </select>
+            </div>
+            <button type="submit">login</button>
+            <div class="remeber"><input type="checkbox" checked="checked">remember me</div>
+            <button type="button" id="cancelbt">cancel</button>
+            <br><a href="#">forgot password</a><br>
+            <a href="#">register</a>
+        </div>
+
+    </form>
+</body>
+</html>
